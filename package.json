@@ -4,7 +4,7 @@
   "description": "employeeProfileGen",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,8 @@
     "bootstrap": "^4.4.1",
     "inquirer": "^7.0.4",
     "jquery": "^3.4.1"
+  },
+  "devDependencies": {
+    "jest": "^25.1.0"
   }
 }

@@ -12,18 +12,28 @@
         <h1 style="text-align: center;"> My Team</h1>
     </div>
     <div class="container">
+      <div class="row">
         <div class="card" style="width: 18rem; float: left;">
-            <div class="card-body">
-              <h5 class="card-title">Name: {{managerName}}</h5>
-              <img src="https://img.icons8.com/ios-filled/48/000000/cafe.png">
-              <h6 class="card-text">Manager</h6>
-            </div>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">ID: {{managerID}}</li>
-              <li class="list-group-item">Email: {{managerEmail}}</li>
-              <li class="list-group-item">Office number: {{managerOffice}} </li>
-            </ul>
+          <div class="card-body">
+            <h5 class="card-title">Name: {{managerName}}</h5>
+            <img src="https://img.icons8.com/ios-filled/48/000000/cafe.png">
+            <h6 class="card-text">Manager</h6>
           </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">ID: {{managerID}}</li>
+            <li class="list-group-item">Title: {{managerTitle}}</li>
+            <li class="list-group-item">Email: {{managerEmail}}</li>
+            <li class="list-group-item">Office number: {{managerOffice}} </li>
+          </ul>
+        </div>
+      </div>
+      <div class="row" style="margin-top:20px">
+        ${engineers}
+      </div>
+      <div class="row" style="margin-top:20px">
+        ${interns}
+      </div>
+        
     
     </div>
     <a href="https://icons8.com/icon/37302/cafe" style="position: relative; margin-left: 500px;">Icons8</a>
